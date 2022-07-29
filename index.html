@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>O ponto é um ponto!</title>
+</head>
+
+<body>
+
+    <head>
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+        <div>
+            <p id="sentence" class="sentenceClass"></p>
+        </div>
+    </head>
+    <main>
+        <div class="carrossel">
+
+            <div class="imagem fade">
+                <img src="img/uni.jpg" style="width:100%" height="300px">
+            </div>
+
+            <div class="imagem fade">
+                <img src="img/uni2.jpg" style="width:100%" height="300px">
+            </div>
+
+            <div class="imagem fade">
+                <img src="IMG/uni3.jpg" style="width:100%" height="300px">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div class="alinharponto">
+            <span class="ponto" onclick="currentSlide(1)"></span>
+            <span class="ponto" onclick="currentSlide(2)"></span>
+            <span class="ponto" onclick="currentSlide(3)"></span>
+        </div>
+        <div>
+            <p class="sentenceClass2">Bom, vocês todos devem estar se perguntando o que diabos estão vendo aqui,
+                correto?</p>
+            <h1 class="h1">Deixe-me esclarecer</h1>
+            <p class="sentenceClass2">Você já pensou em algo que não pode ser definido, não tem partes ou forma e é
+                adimensional (0 dimensões)? Este é o ponto: o elemento mais básico que forma toda a Geometria.</p>
+        </div>
+        <div>
+            <div class="imagem2">
+                <img src="IMG/ponto1.jpg" style="width:100%" height="300px">
+            </div>
+            <div class="imagem2">
+                <img src="IMG/ponto2.jpg" style="width:100%" height="300px">
+            </div>
+            <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+            <br>
+            <hr>
+        </div>
+        <div>
+            <p class="sentenceClass3">Agora que compreendemos um pouco sobre o funcionamento da estrutura de um PONTO,
+                permita-me demonstrar o potencial de criação gráfico de um.</p>
+            <br>
+            <h2 class="h2">Vamos calcular uma função de 1º grau f(x) = x + 1; adote x = 0 e y = 0:</h2>
+            <br>
+            <button id="button" class="buttonClass">Gerar função</button>
+            <p id="demo" class="sentenceClass4"></p>
+            <br>
+            <br>
+            <div class="cartesiano">
+                <canvas class="canvas" id="myCanvas" width="400" height="500" style="border:1px solid #d3d3d3;"></canvas>
+            </div>
+            <br>
+            <br>
+            <div>
+                <p class="sentenceClass5">Vimos acima que o posicionamento de um ponto é capaz de criar uma reta. Sabemos que uma reta, em um plano espacial, é capaz de gerar muitos objetos, incluindo espadas, facas, ruas, paredes e afins. Mas o ponto é capaz de gerar somente uma reta?</p>
+                <h3 class="h3">A resposta é NÃO. O ponto, por ser um elemento sem dimensão, pode ser localizado em qualquer espaço dimensional, até mesmo dentro de si próprio.</h3>
+                <p class="sentenceClass5">Vamos analisar mais uma outra função:</p>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button id="button2" class="buttonClass">Gerar função</button>
+                <p id="demo2" class="sentenceClass5"></p>
+                <button id="button3" class="buttonClass2">Continuar função</button>
+                <br>
+                <p id="demo3" class="sentenceClass5"></p>
+                <br>
+                <br>
+            </div>
+            <div class="cartesiano">
+                <canvas class="canvas" id="myCanvas2" width="400" height="500" style="border:1px solid #d3d3d3;"></canvas>
+            </div>
+            <br>
+            <br>
+            <div>
+                <p class="sentenceClass5">Além de termos uma explição muito mais aprofundada para as funções, também é possível ver como um ponto ( . ) pode ser usado no dia a dia, e consequentemente, na formação do universo.</p>
+                <img src="IMG/violao.jpg" height="300px">
+                <h4 class="h4">Um violão, ao ser utilizado, é marcado com a ponta dos nossos dedos, fazendo pressão no equipamento, em uma área que pode ser interpretada como um ponto (ponto de pressão |  P = F / A). Toda o movimento acústico é gerado porque esses pontos pressionados são vibrados - o que significa que ao vibrar um ponto, temos uma frequência gerada.</h4>
+                <p class="sentenceClass5">Ao imaginar um SOL, ou qualquer outra estrela, vocês poderiam estar analisando se eles também formariam um ponto, o que nos leva a uma resposta: sim e não. Eles são elementos de dimensão 3D, o que nos gera, integralmente, raio, diâmetro, volume e altura.</p>
+                <img src="IMG/esfera.jpg" height="300px">
+                <h5 class="h5">Em um R (raio), temos uma linha reta, que como vimos acima, é formada pela ligação entre dois pontos ou mais, ou seja, nessa estrutura, temos a fixação de pontos gerando um elemento essencial para a vida: o sol.</h5>
+                <p class="sentenceClass5">Poderíamos falar também sobre como cada ponto poderia estar ligado na rotação do desenho do globo ou círculo. Se você pegar um ponto do desenho curvado e ligar até outra extremidade, irá gerar uma reta, que é formada por 2 pontos, o que significa que a estrutura dimensional só existe porque os pontos atômicos de cada elemento pode ligar-se um ao outro, dando base para mantér-se "em pé".</p>
+                <h6 class="h6">Um belo de exemplo de pontos ligados ao círculo:</h6>
+                <img class="ligacao" src="IMG/ligacao.png" height="300px">
+            </div>
+            <br>
+            <br>
+    </main>
+    <footer>
+        <br>
+        <div class="footer">
+            <p class="sentenceClass6">Developed by Victor Leão Dal Rovere</p>
+        </div>
+    </footer>
+
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
