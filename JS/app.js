@@ -49,7 +49,7 @@ function showSlides(n) {
      slidePosition = 1;
    }
    slides[slidePosition - 1].style.display = "block";
-   setTimeout(SlideShow, 1000);
+   setTimeout(SlideShow, 3000);
  }
 
 // -------------------------------------
